@@ -1,0 +1,1112 @@
+[
+  {
+    "vector_id": 0,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity. 1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs. 2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources. 3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status. 4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction. 5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications. 6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are"
+  },
+  {
+    "vector_id": 1,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "text": "Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity. 8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls. 9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk. 10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses. 11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering. 12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 2,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity. 1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs. 2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources. 3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status. 4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction. 5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications. 6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are"
+  },
+  {
+    "vector_id": 3,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "text": "Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity. 8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls. 9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk. 10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses. 11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering. 12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 4,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity. 1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs. 2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources. 3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status. 4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction. 5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications. 6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are"
+  },
+  {
+    "vector_id": 5,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "text": "Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity. 8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls. 9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk. 10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses. 11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering. 12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 6,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity. 1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs. 2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources. 3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status. 4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction. 5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications. 6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are"
+  },
+  {
+    "vector_id": 7,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "text": "Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity. 8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls. 9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk. 10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses. 11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering. 12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 8,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity. 1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs. 2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources. 3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status. 4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction. 5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications. 6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are"
+  },
+  {
+    "vector_id": 9,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "text": "Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions. 7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity. 8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls. 9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk. 10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses. 11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering. 12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 10,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 11,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 12,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 13,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 14,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 15,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 16,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 17,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 18,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 19,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 20,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 21,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 22,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 23,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 24,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 25,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 26,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 27,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 28,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 29,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 30,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 31,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 32,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 33,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 34,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 35,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 36,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 37,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 38,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 39,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 40,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 41,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 42,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 43,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 44,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 45,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 46,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 47,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 48,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 49,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 50,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 51,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 52,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 53,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 54,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 55,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 56,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 57,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 58,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 59,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 60,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 61,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 62,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 63,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 64,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 65,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 66,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 67,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 68,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 69,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 70,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 71,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 72,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 73,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 74,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 75,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 76,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 77,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 78,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 79,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 80,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 81,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 82,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 83,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 84,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 85,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 86,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 87,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 88,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 89,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 90,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 91,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 92,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 93,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 94,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 95,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 96,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 97,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 98,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 99,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 100,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 101,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 102,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 103,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 104,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 105,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 106,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 107,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 108,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 109,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 110,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 111,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 112,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 113,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 114,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 115,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 116,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 117,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 118,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 119,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 120,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 121,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 122,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 123,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 124,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 125,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 126,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  },
+  {
+    "vector_id": 127,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "Comprehensive Enterprise Security & Compliance Report Company Name: Nexora Tech Solutions Pvt. Ltd. Reporting Period: FY 2024\u20132025 This report provides a detailed overview of the security controls, governance mechanisms, risk management processes, and regulatory compliance measures implemented across the organization. The document reflects management\u2019s commitment to protecting information assets, maintaining customer trust, ensuring regulatory adherence, and continuously improving the organization\u2019s cybersecurity maturity."
+  },
+  {
+    "vector_id": 128,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "1. Authentication Nexora Tech Solutions enforces robust authentication mechanisms across all corporate systems, applications, and infrastructure components. Multi-Factor Authentication (MFA) is mandatory for all employees, contractors, and third-party partners accessing internal or cloud-based systems. This significantly reduces the risk of unauthorized access resulting from compromised credentials. Password standards are governed by a formal Access Control Policy requiring strong complexity rules, minimum length requirements, and periodic rotation. Password reuse is restricted through technical enforcement controls, and breached password databases are monitored to proactively prevent compromised credentials from being used within the organization. Privileged accounts require step-up authentication mechanisms including hardware tokens or biometric validation. All authentication events are centrally logged and monitored to detect suspicious login attempts, brute force attacks, or geographic anomalies. Administrative authentication to production systems is segregated from standard user accounts, ensuring that privileged credentials are protected and traceable through detailed audit logs."
+  },
+  {
+    "vector_id": 129,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 2,
+    "page_number": 3,
+    "text": "2. Network Security The organization maintains a defense-in-depth network architecture designed to protect internal assets from external and internal threats. Enterprise-grade next-generation firewalls (NGFW) are deployed at perimeter and internal network boundaries, enabling deep packet inspection and advanced threat filtering. Intrusion Detection and Prevention Systems (IDS/IPS) continuously monitor network traffic for malicious signatures and anomalous patterns. Security rules are regularly updated based on threat intelligence feeds to mitigate emerging attack vectors. Network segmentation isolates critical systems such as finance, HR, and production workloads from general corporate traffic. This segmentation limits lateral movement in the event of a breach and ensures controlled communication between environments. Secure remote access is provided through encrypted VPN connections with device posture checks to ensure that only compliant and managed devices can access corporate resources."
+  },
+  {
+    "vector_id": 130,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 3,
+    "page_number": 4,
+    "text": "3. Compliance Nexora Tech Solutions aligns its governance framework with internationally recognized standards including ISO 27001, GDPR, and SOC 2 Type II principles. Compliance requirements are integrated into operational workflows rather than treated as standalone initiatives. A centralized Compliance Management System (CMS) tracks regulatory obligations, audit findings, remediation actions, and policy updates. Automated alerts ensure timely renewals, certifications, and control assessments. Internal audits are conducted quarterly to validate control effectiveness, while independent external audits are performed annually. Findings are documented, risk-rated, and assigned remediation timelines. Executive leadership receives regular compliance dashboards summarizing risk exposure, control gaps, training completion metrics, and audit readiness status."
+  },
+  {
+    "vector_id": 131,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 4,
+    "page_number": 5,
+    "text": "4. Endpoint Security All company-issued devices are protected by Endpoint Detection and Response (EDR) solutions capable of behavioral monitoring, malware detection, and automated containment. These tools provide visibility into endpoint activity across Windows, macOS, and Linux platforms. Full disk encryption is enforced on laptops and mobile devices to prevent data exposure in the event of theft or loss. Encryption keys are centrally managed and recoverable through secure administrative workflows. Patch management processes ensure that operating system and application updates are deployed within defined Service Level Agreements (SLAs). Critical patches are prioritized and deployed on an expedited basis. Removable media controls restrict unauthorized USB access, reducing the risk of data exfiltration and malware introduction."
+  },
+  {
+    "vector_id": 132,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 5,
+    "page_number": 6,
+    "text": "5. Application Security The Secure Software Development Lifecycle (SSDLC) is embedded into all development practices. Security requirements are defined during the design phase and validated throughout development, testing, and deployment stages. Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools are integrated into CI/CD pipelines, enabling automated vulnerability detection before production release. Third-party dependency scanning identifies vulnerable open-source libraries, ensuring timely updates and reducing supply chain risk. Regular code reviews, threat modeling exercises, and penetration testing engagements strengthen the overall resilience of applications."
+  },
+  {
+    "vector_id": 133,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 6,
+    "page_number": 7,
+    "text": "6. Cloud Security Cloud environments are configured using secure baseline templates aligned with industry best practices. Infrastructure-as-Code deployments undergo peer review and automated security validation before implementation. Cloud Security Posture Management (CSPM) tools continuously monitor for misconfigurations, excessive permissions, and policy violations. Data stored in cloud environments is encrypted at rest and in transit using strong cryptographic standards. Encryption keys are managed through secure key management systems with strict access controls. Identity and Access Management (IAM) roles follow least privilege principles, ensuring that users and services only have access necessary for their functions."
+  },
+  {
+    "vector_id": 134,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 7,
+    "page_number": 8,
+    "text": "7. Data Security A formal Data Classification Policy categorizes information into public, internal, confidential, and restricted tiers. Handling requirements vary based on classification level. Sensitive data is protected using AES-256 encryption and tokenization techniques where appropriate. Access to restricted datasets requires documented business justification and managerial approval. Data Loss Prevention (DLP) technologies monitor email, web uploads, and endpoint activities to detect potential data exfiltration attempts. Regular backup procedures are implemented with offsite replication and periodic restoration testing to ensure business continuity."
+  },
+  {
+    "vector_id": 135,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 8,
+    "page_number": 9,
+    "text": "8. Incident Response The organization maintains a comprehensive Incident Response Plan outlining roles, responsibilities, communication protocols, and escalation paths. A dedicated Security Operations Center (SOC) operates continuously to monitor alerts, investigate anomalies, and coordinate response efforts. Incident playbooks provide structured guidance for handling ransomware, phishing, insider threats, and data breaches. Post-incident reviews are conducted to identify root causes, implement corrective actions, and enhance preventive controls."
+  },
+  {
+    "vector_id": 136,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 9,
+    "page_number": 10,
+    "text": "9. Identity and Access Management Role-Based Access Control (RBAC) ensures that access rights are aligned with job responsibilities. Access provisioning is automated and integrated with HR systems to reduce manual errors. Privileged Access Management (PAM) solutions secure administrative credentials through vaulting, session monitoring, and just-in-time access controls. Quarterly access reviews are conducted to validate user entitlements and remove unnecessary permissions. Separation of duties principles prevent conflicts of interest and reduce fraud risk."
+  },
+  {
+    "vector_id": 137,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 10,
+    "page_number": 11,
+    "text": "10. Vulnerability Management Continuous vulnerability scanning is performed across internal and external environments. Results are prioritized based on severity, exploitability, and business impact. Critical vulnerabilities are remediated within defined SLA timelines, and remediation progress is tracked through centralized dashboards. External penetration tests are conducted annually by independent security firms to assess real-world attack scenarios. A responsible disclosure and bug bounty program encourages ethical reporting of security weaknesses."
+  },
+  {
+    "vector_id": 138,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 11,
+    "page_number": 12,
+    "text": "11. Physical Security Data centers and office facilities are protected by multi-layered physical security controls including biometric access systems, CCTV surveillance, and 24/7 security personnel. Visitor access requires prior authorization, identity verification, and escorted movement within restricted areas. Environmental safeguards such as fire suppression systems, temperature controls, and flood detection mechanisms protect critical infrastructure. Physical asset inventories are maintained and periodically verified to prevent unauthorized removal or tampering."
+  },
+  {
+    "vector_id": 139,
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "chunk_id": 12,
+    "page_number": 13,
+    "text": "12. Security Monitoring and Logging A centralized Security Information and Event Management (SIEM) platform aggregates logs from network devices, endpoints, applications, and cloud services. Real-time correlation rules identify suspicious patterns and trigger automated alerts for investigation. Log retention policies comply with regulatory and contractual obligations, ensuring availability for forensic analysis. Continuous monitoring metrics are reviewed by security leadership to drive ongoing improvements and adapt to evolving threat landscapes."
+  }
+]

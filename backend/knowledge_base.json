@@ -1,0 +1,273 @@
+{
+  "domains": {
+
+    "information_security_governance": {
+      "clause": ["5.1", "5.2", "5.3", "5.4", "5.8"],
+      "keywords": ["ISMS", "policy", "governance", "segregation of duties", "management review", "project security"],
+      "best_practices": [
+        "approved and communicated information security policy",
+        "clearly defined security roles and accountability matrix",
+        "segregation of conflicting duties",
+        "top management review of ISMS",
+        "security risk assessment integrated into project lifecycle",
+        "periodic policy review and update"
+      ],
+      "risk_indicators": [
+        "no formal ISMS",
+        "unclear ownership of security processes",
+        "developers deploying to production",
+        "security excluded from project planning",
+        "no documented governance review"
+      ],
+      "follow_up_templates": [
+        "How is your ISMS reviewed by management?",
+        "How do you enforce segregation of duties?",
+        "How are security risks incorporated into new projects?",
+        "Who owns security governance decisions?"
+      ]
+    },
+
+    "asset_and_information_management": {
+      "clause": ["5.9", "5.10", "5.11", "5.12", "5.13", "5.14"],
+      "keywords": ["asset inventory", "information classification", "data labeling", "asset return", "data transfer"],
+      "best_practices": [
+        "maintained and reviewed asset inventory",
+        "formal asset ownership assignment",
+        "information classification levels defined",
+        "data labeling standards",
+        "secure information transfer mechanisms",
+        "secure asset return process during termination"
+      ],
+      "risk_indicators": [
+        "unknown shadow IT assets",
+        "no classification of sensitive data",
+        "uncontrolled file sharing",
+        "missing asset tracking",
+        "employees leaving with devices"
+      ],
+      "follow_up_templates": [
+        "How do you maintain your asset inventory?",
+        "What classification levels are defined?",
+        "How is sensitive data transferred securely?",
+        "What is the asset return procedure?"
+      ]
+    },
+
+    "identity_and_access_management": {
+      "clause": ["5.15", "5.16", "5.17", "5.18", "8.2", "8.5"],
+      "keywords": ["IAM", "RBAC", "MFA", "authentication", "authorization", "privileged access"],
+      "best_practices": [
+        "role-based access control",
+        "least privilege principle enforcement",
+        "multi-factor authentication implementation",
+        "secure credential storage",
+        "periodic access rights review",
+        "privileged access monitoring",
+        "automated account de-provisioning"
+      ],
+      "risk_indicators": [
+        "shared accounts",
+        "no MFA",
+        "privileged accounts without monitoring",
+        "dormant active accounts",
+        "manual access approval without review"
+      ],
+      "follow_up_templates": [
+        "How often are access rights reviewed?",
+        "How is least privilege enforced?",
+        "How are privileged accounts monitored?",
+        "How is account revocation handled?"
+      ]
+    },
+
+    "supplier_and_cloud_security": {
+      "clause": ["5.19", "5.20", "5.21", "5.22", "5.23"],
+      "keywords": ["third-party risk", "supplier agreements", "cloud governance", "outsourcing", "SLA security"],
+      "best_practices": [
+        "security clauses embedded in supplier contracts",
+        "third-party risk assessments before onboarding",
+        "cloud IAM and security group governance",
+        "continuous supplier monitoring",
+        "ICT supply chain risk evaluation",
+        "cloud configuration audits"
+      ],
+      "risk_indicators": [
+        "no vendor risk assessment",
+        "open cloud storage buckets",
+        "lack of supplier monitoring",
+        "no security requirements in contracts"
+      ],
+      "follow_up_templates": [
+        "How are suppliers evaluated for security risk?",
+        "What controls govern cloud access?",
+        "How do you monitor supplier compliance?",
+        "How is ICT supply chain risk managed?"
+      ]
+    },
+
+    "incident_response_and_threat_management": {
+      "clause": ["5.7", "5.24", "5.25", "5.26", "5.27", "5.28"],
+      "keywords": ["threat intelligence", "incident response", "SOC", "forensics", "breach management"],
+      "best_practices": [
+        "formal incident response plan",
+        "incident severity classification matrix",
+        "forensic evidence preservation procedures",
+        "post-incident lessons learned process",
+        "strategic and tactical threat intelligence integration",
+        "incident response simulations"
+      ],
+      "risk_indicators": [
+        "no IR plan",
+        "delayed incident detection",
+        "no threat intelligence feeds",
+        "lack of forensic capability",
+        "no post-incident review"
+      ],
+      "follow_up_templates": [
+        "How are incidents classified and escalated?",
+        "How often is the IR plan tested?",
+        "How is threat intelligence incorporated into controls?",
+        "How is evidence preserved during investigations?"
+      ]
+    },
+
+    "business_continuity_and_resilience": {
+      "clause": ["5.29", "5.30"],
+      "keywords": ["BCP", "DR", "RTO", "RPO", "redundancy", "failover"],
+      "best_practices": [
+        "defined recovery time objective (RTO)",
+        "defined recovery point objective (RPO)",
+        "regular disaster recovery testing",
+        "redundant infrastructure deployment",
+        "off-site and encrypted backups"
+      ],
+      "risk_indicators": [
+        "untested recovery plan",
+        "no documented RTO/RPO",
+        "single point of failure",
+        "backup failure"
+      ],
+      "follow_up_templates": [
+        "What are your defined RTO and RPO values?",
+        "How often are DR exercises conducted?",
+        "What redundancy exists for critical systems?"
+      ]
+    },
+
+    "legal_privacy_and_compliance": {
+      "clause": ["5.31", "5.32", "5.33", "5.34", "5.35", "5.36"],
+      "keywords": ["regulatory compliance", "GDPR", "PII", "records protection", "audit"],
+      "best_practices": [
+        "legal requirement tracking register",
+        "privacy impact assessments",
+        "independent security audits",
+        "records retention policy",
+        "intellectual property protection controls",
+        "compliance monitoring dashboard"
+      ],
+      "risk_indicators": [
+        "no audit evidence",
+        "untracked regulatory changes",
+        "privacy violations",
+        "missing retention policy"
+      ],
+      "follow_up_templates": [
+        "How are regulatory changes tracked?",
+        "When was the last independent security audit?",
+        "How is PII protected and retained?",
+        "How are compliance findings remediated?"
+      ]
+    },
+
+    "people_security": {
+      "clause": ["6.1", "6.3", "6.5", "6.8"],
+      "keywords": ["screening", "awareness training", "termination", "security reporting"],
+      "best_practices": [
+        "background verification before hiring",
+        "mandatory annual security awareness training",
+        "formal exit procedure with access revocation",
+        "anonymous security incident reporting channel"
+      ],
+      "risk_indicators": [
+        "no employee screening",
+        "untrained staff",
+        "delayed account deactivation",
+        "unreported suspicious activity"
+      ],
+      "follow_up_templates": [
+        "What screening is conducted before hiring?",
+        "How often is security training delivered?",
+        "How is access revoked after termination?",
+        "How can employees report security incidents?"
+      ]
+    },
+
+    "physical_and_environmental_security": {
+      "clause": ["7.1", "7.2", "7.3", "7.4", "7.7", "7.14"],
+      "keywords": ["physical access", "CCTV", "perimeter security", "secure disposal", "clear desk"],
+      "best_practices": [
+        "controlled physical access to secure areas",
+        "CCTV monitoring with retention logs",
+        "visitor management process",
+        "clear desk and clear screen enforcement",
+        "secure media disposal procedures"
+      ],
+      "risk_indicators": [
+        "unmonitored server rooms",
+        "no visitor log",
+        "data remnants on disposed devices",
+        "unlocked workstations"
+      ],
+      "follow_up_templates": [
+        "How is access to secure areas controlled?",
+        "How long are CCTV logs retained?",
+        "How are storage devices disposed securely?",
+        "How is visitor access monitored?"
+      ]
+    },
+
+    "technical_security_controls": {
+      "clause": ["8.7", "8.8", "8.9", "8.12", "8.13", "8.15", "8.16", "8.20", "8.21", "8.22", "8.24", "8.25", "8.28", "8.29", "8.32"],
+      "keywords": ["malware protection", "vulnerability scanning", "logging", "SIEM", "encryption", "network segmentation", "secure coding"],
+      "best_practices": [
+        "regular vulnerability scanning and patching",
+        "centralized log management with SIEM",
+        "network segmentation and firewall controls",
+        "data encryption at rest and in transit",
+        "secure SDLC implementation",
+        "static and dynamic application security testing",
+        "formal change management workflow",
+        "continuous monitoring of system activity"
+      ],
+      "risk_indicators": [
+        "outdated software",
+        "unencrypted sensitive data",
+        "no centralized logging",
+        "flat network architecture",
+        "unreviewed code deployments"
+      ],
+      "follow_up_templates": [
+        "How often are vulnerability scans conducted?",
+        "How are logs analyzed and correlated?",
+        "What encryption standards are used?",
+        "How is secure coding enforced?",
+        "How are production changes approved?"
+      ]
+    }
+  },
+  "risk_thresholds": {
+    "incident_response_and_threat_management": 0.75,
+    "technical_security_controls": 0.75,
+
+    "identity_and_access_management": 0.70,
+    "business_continuity_and_resilience": 0.70,
+    "legal_privacy_and_compliance": 0.70,
+
+    "information_security_governance": 0.65,
+    "supplier_and_cloud_security": 0.65,
+    "asset_and_information_management": 0.60,
+
+    "people_security": 0.55,
+    "physical_and_environmental_security": 0.55
+  }
+}

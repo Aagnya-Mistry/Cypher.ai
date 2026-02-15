@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "domain": "asset_and_information_management",
+    "domain_score": 0.8864,
+    "threshold": 0.6,
+    "passes_threshold": true,
+    "risk_level": "Low",
+    "coverage_score": 1.0,
+    "best_practice_match_ratio": 1.0,
+    "risk_indicator_match_ratio": 1.0,
+    "missing_area_ratio": 0.2727,
+    "loops_run": 6,
+    "matched_best_practices": [
+      "maintained and reviewed asset inventory",
+      "formal asset ownership assignment",
+      "information classification levels defined",
+      "data labeling standards",
+      "secure information transfer mechanisms",
+      "secure asset return process during termination"
+    ],
+    "matched_risk_indicators": [
+      "unknown shadow IT assets",
+      "no classification of sensitive data",
+      "uncontrolled file sharing",
+      "missing asset tracking",
+      "employees leaving with devices"
+    ],
+    "updated_at": "2026-02-15T16:15:48+00:00"
+  },
+  {
+    "user_id": "demo_user",
+    "report_name": "Enterprise_Grade_Security_Compliance_Report.pdf",
+    "domain": "incident_response_and_threat_management",
+    "domain_score": 0.8955,
+    "threshold": 0.75,
+    "passes_threshold": true,
+    "risk_level": "Low",
+    "coverage_score": 1.0,
+    "best_practice_match_ratio": 1.0,
+    "risk_indicator_match_ratio": 1.0,
+    "missing_area_ratio": 0.0909,
+    "loops_run": 6,
+    "matched_best_practices": [
+      "formal incident response plan",
+      "incident severity classification matrix",
+      "forensic evidence preservation procedures",
+      "post-incident lessons learned process",
+      "strategic and tactical threat intelligence integration",
+      "incident response simulations"
+    ],
+    "matched_risk_indicators": [
+      "no IR plan",
+      "delayed incident detection",
+      "no threat intelligence feeds",
+      "lack of forensic capability",
+      "no post-incident review"
+    ],
+    "updated_at": "2026-02-15T16:17:14+00:00"
+  }
+]
