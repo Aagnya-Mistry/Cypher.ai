@@ -42,6 +42,13 @@ body {
   color: var(--primary-dark);
 }
 
+.hero-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -98,6 +105,11 @@ button:disabled {
   background: linear-gradient(120deg, #0a4da0, #0b63c9);
 }
 
+.logout-btn {
+  margin-top: 0;
+  white-space: nowrap;
+}
+
 .error {
   color: var(--error);
   font-weight: 600;
@@ -145,6 +157,10 @@ th {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   margin-bottom: 12px;
+}
+
+.single-control {
+  grid-template-columns: minmax(240px, 420px);
 }
 
 .chat-wrap {
@@ -203,6 +219,47 @@ th {
   letter-spacing: 0.04em;
 }
 
+.auth-card {
+  max-width: 520px;
+  margin: 0 auto 18px;
+}
+
+.auth-form {
+  display: grid;
+  gap: 14px;
+}
+
+.password-input-wrap {
+  position: relative;
+}
+
+.password-input-wrap input {
+  width: 100%;
+  padding-right: 44px;
+}
+
+.icon-btn {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  margin-top: 0;
+  padding: 6px;
+  border-radius: 8px;
+  background: #f1f8ff;
+  border: 1px solid #d7e8fb;
+  color: #24486d;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
 @media (max-width: 900px) {
   .controls-grid {
     grid-template-columns: 1fr;
@@ -221,5 +278,10 @@ th {
   .hero,
   .card {
     padding: 14px;
+  }
+
+  .hero-top {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

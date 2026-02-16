@@ -79,6 +79,8 @@ class FaissVectorStore:
         overfetch = min(index.ntotal, max(top_k * 8, top_k + 20))
         scores, indices = index.search(query_embedding.astype(np.float32), overfetch)
 
+        requested_report_name = self._normalize_optional_text(report_name)
+
         hits: list[VectorStoreSearchHit] = []
         seen_texts: set[str] = set()
         for score, vector_id in zip(scores[0], indices[0]):
@@ -92,7 +94,8 @@ class FaissVectorStore:
             if user_id and metadata.get('user_id') != user_id:
                 continue
 
-            if report_name and metadata.get('report_name') != report_name:
+            metadata_report_name = self._normalize_optional_text(metadata.get('report_name'))
+            if requested_report_name and metadata_report_name != requested_report_name:
                 continue
 
             text_key = ' '.join(str(metadata.get('text', '')).split()).lower()
@@ -160,3 +163,8 @@ class FaissVectorStore:
             return 0
         index = faiss.read_index(self.index_path)
         return index.ntotal
+
+    def _normalize_optional_text(self, value: Any) -> str:
+        if value is None:
+            return ''
+        return ' '.join(str(value).strip().lower().split())

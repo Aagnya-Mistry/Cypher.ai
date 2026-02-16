@@ -1,7 +1,7 @@
 from app.schemas.agent2 import Agent2ChatResponse, Agent2LoopMessage, RetrievedChunk, StructuredAnswer
 from app.services.embedding_service import EmbeddingService
 from app.services.knowledge_base_service import DomainKnowledge, KnowledgeBaseService
-from app.services.vector_store_service import FaissVectorStore
+from app.services.vector_store_service import FaissVectorStore, VectorStoreSearchHit
 
 
 class StructuredSignalExtractor:
@@ -13,6 +13,9 @@ class StructuredSignalExtractor:
         best_practices: list[str],
         risk_indicators: list[str],
         missing_areas: list[str],
+        loop_number: int = 1,
+        prior_summaries: list[str] | None = None,
+        prior_control_queries: list[str] | None = None,
     ) -> dict:
         raise NotImplementedError
 
@@ -42,30 +45,59 @@ class Agent2RagReasoningPipeline:
     ) -> Agent2ChatResponse:
         domain_cfg = self.knowledge_base.get_domain(domain)
         threshold = self.knowledge_base.get_threshold(domain)
-        loops_limit = 6
+        loops_limit = 5
 
         missing_areas = list(domain_cfg.keywords)
         conversation: list[Agent2LoopMessage] = []
 
         covered_best: set[str] = set()
         covered_risk: set[str] = set()
-        llm_available = True
-        llm_error_message = ''
+        used_vector_ids: set[int] = set()
         reached_coverage = False
 
         for loop_idx in range(loops_limit):
             control_query = self._build_control_query(domain_cfg, loop_idx, missing_areas)
 
             query_embedding = self.embedding_service.embed_texts([control_query])
+            retrieval_top_k = max(top_k, 8)
             hits = self.vector_store.search(
                 query_embedding=query_embedding,
-                top_k=top_k,
+                top_k=retrieval_top_k,
                 user_id=user_id,
                 report_name=report_name,
             )
+            if not hits and report_name:
+                # Fallback in case report-name filter is stale/mismatched in UI input.
+                hits = self.vector_store.search(
+                    query_embedding=query_embedding,
+                    top_k=retrieval_top_k,
+                    user_id=user_id,
+                    report_name=None,
+                )
 
             llm_hits_limit = max(1, min(top_k, 5))
-            selected_hits = hits[:llm_hits_limit]
+            selected_hits = self._select_hits_for_loop(
+                hits=hits,
+                used_vector_ids=used_vector_ids,
+                limit=llm_hits_limit,
+            )
+
+            # If uniqueness filtering removed too many hits, retry with a loop-specific expanded query.
+            if len(selected_hits) < llm_hits_limit:
+                expanded_query = self._build_expanded_query(control_query, loop_idx, missing_areas)
+                expanded_embedding = self.embedding_service.embed_texts([expanded_query])
+                expanded_hits = self.vector_store.search(
+                    query_embedding=expanded_embedding,
+                    top_k=retrieval_top_k,
+                    user_id=user_id,
+                    report_name=report_name,
+                )
+                selected_hits = self._merge_unique_hits(
+                    primary=selected_hits,
+                    fallback=expanded_hits,
+                    used_vector_ids=used_vector_ids,
+                    limit=llm_hits_limit,
+                )
             context_chunks = [
                 self._trim_chunk_for_llm(hit.metadata.get('text', ''))
                 for hit in selected_hits
@@ -74,32 +106,30 @@ class Agent2RagReasoningPipeline:
             if not context_chunks:
                 raise ValueError('No indexed chunks found. Run Agent 1 document processing first.')
 
-            if llm_available:
-                try:
-                    llm_raw = self.llm_service.extract_structured_signals(
-                        domain=domain_cfg.key,
-                        control_query=control_query,
-                        context_chunks=context_chunks,
-                        best_practices=domain_cfg.best_practices,
-                        risk_indicators=domain_cfg.risk_indicators,
-                        missing_areas=missing_areas,
-                    )
-                except Exception as exc:
-                    llm_available = False
-                    llm_error_message = str(exc)
-                    llm_raw = self._fallback_structured_answer(
-                        domain_cfg=domain_cfg,
-                        context_chunks=context_chunks,
-                        error_message=llm_error_message,
-                    )
-            else:
+            for hit in selected_hits:
+                used_vector_ids.add(hit.vector_id)
+
+            prior_summaries = [loop.llm_answer.summary for loop in conversation if loop.llm_answer.summary]
+            prior_queries = [loop.control_query for loop in conversation if loop.control_query]
+            try:
+                llm_raw = self.llm_service.extract_structured_signals(
+                    domain=domain_cfg.key,
+                    control_query=control_query,
+                    context_chunks=context_chunks,
+                    best_practices=domain_cfg.best_practices,
+                    risk_indicators=domain_cfg.risk_indicators,
+                    missing_areas=missing_areas,
+                    loop_number=loop_idx + 1,
+                    prior_summaries=prior_summaries[-4:],
+                    prior_control_queries=prior_queries[-4:],
+                )
+            except Exception as exc:
                 llm_raw = self._fallback_structured_answer(
                     domain_cfg=domain_cfg,
                     context_chunks=context_chunks,
-                    error_message=(
-                        'LLM unavailable for this run after previous failure. '
-                        f'Previous error: {llm_error_message[:180]}'
-                    ),
+                    error_message=str(exc),
+                    control_query=control_query,
+                    loop_number=loop_idx + 1,
                 )
 
             llm_answer = self._normalize_llm_answer(llm_raw)
@@ -108,7 +138,10 @@ class Agent2RagReasoningPipeline:
             covered_risk.update(self._match_covered(domain_cfg.risk_indicators, llm_answer.risk_indicators_found))
 
             coverage_score = self._coverage_score(domain_cfg, covered_best, covered_risk)
-            coverage_complete = llm_answer.coverage_complete or coverage_score >= threshold
+            best_ratio = len(covered_best) / max(1, len(domain_cfg.best_practices))
+            no_risk_indicators = len(covered_risk) == 0
+            heuristic_coverage = best_ratio >= 0.7 and no_risk_indicators
+            coverage_complete = llm_answer.coverage_complete or coverage_score >= threshold or heuristic_coverage
             if coverage_complete:
                 reached_coverage = True
 
@@ -126,7 +159,7 @@ class Agent2RagReasoningPipeline:
                             score=hit.score,
                             text_preview=(hit.metadata.get('text') or '')[:240],
                         )
-                        for hit in hits
+                        for hit in selected_hits
                     ],
                     llm_answer=llm_answer,
                 )
@@ -215,6 +248,8 @@ class Agent2RagReasoningPipeline:
         domain_cfg: DomainKnowledge,
         context_chunks: list[str],
         error_message: str,
+        control_query: str,
+        loop_number: int,
     ) -> dict:
         context_text = ' '.join(context_chunks).lower()
 
@@ -234,8 +269,8 @@ class Agent2RagReasoningPipeline:
             'coverage_complete': False,
             'missing_areas': remaining_best + remaining_risk,
             'summary': (
-                'Fallback extraction used because LLM call failed. '
-                f'Error: {error_message[:240]}'
+                f'Loop {loop_number}: fallback extraction for control query '
+                f'"{control_query[:120]}". Error: {error_message[:180]}'
             ),
         }
 
@@ -249,3 +284,52 @@ class Agent2RagReasoningPipeline:
     def _trim_chunk_for_llm(self, text: str, max_chars: int = 700) -> str:
         normalized = ' '.join(str(text).split())
         return normalized[:max_chars]
+
+    def _select_hits_for_loop(
+        self,
+        hits: list[VectorStoreSearchHit],
+        used_vector_ids: set[int],
+        limit: int,
+    ) -> list[VectorStoreSearchHit]:
+        unseen = [hit for hit in hits if hit.vector_id not in used_vector_ids]
+        selected = unseen[:limit]
+        if selected:
+            return selected
+        return hits[:limit]
+
+    def _merge_unique_hits(
+        self,
+        primary: list[VectorStoreSearchHit],
+        fallback: list[VectorStoreSearchHit],
+        used_vector_ids: set[int],
+        limit: int,
+    ) -> list[VectorStoreSearchHit]:
+        selected: list[VectorStoreSearchHit] = list(primary)
+        selected_ids = {hit.vector_id for hit in selected}
+        for hit in fallback:
+            if len(selected) >= limit:
+                break
+            if hit.vector_id in selected_ids:
+                continue
+            if hit.vector_id in used_vector_ids and len(selected) < max(1, limit // 2):
+                # Prefer unseen hits, but allow a few seen hits if needed to avoid empty context.
+                continue
+            selected.append(hit)
+            selected_ids.add(hit.vector_id)
+
+        if len(selected) < limit:
+            for hit in fallback:
+                if len(selected) >= limit:
+                    break
+                if hit.vector_id in selected_ids:
+                    continue
+                selected.append(hit)
+                selected_ids.add(hit.vector_id)
+        return selected
+
+    def _build_expanded_query(self, control_query: str, loop_idx: int, missing_areas: list[str]) -> str:
+        focus = ', '.join(missing_areas[:5]) if missing_areas else 'remaining controls'
+        return (
+            f'{control_query} Loop {loop_idx + 1} follow-up. '
+            f'Find different evidence related to: {focus}.'
+        )

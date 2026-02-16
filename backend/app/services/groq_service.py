@@ -43,6 +43,9 @@ class GroqService:
         best_practices: list[str],
         risk_indicators: list[str],
         missing_areas: list[str],
+        loop_number: int = 1,
+        prior_summaries: list[str] | None = None,
+        prior_control_queries: list[str] | None = None,
     ) -> dict:
         prompt = self._build_prompt(
             domain=domain,
@@ -51,6 +54,9 @@ class GroqService:
             best_practices=best_practices,
             risk_indicators=risk_indicators,
             missing_areas=missing_areas,
+            loop_number=loop_number,
+            prior_summaries=prior_summaries or [],
+            prior_control_queries=prior_control_queries or [],
         )
 
         payload = {
@@ -224,14 +230,20 @@ class GroqService:
         best_practices: list[str],
         risk_indicators: list[str],
         missing_areas: list[str],
+        loop_number: int,
+        prior_summaries: list[str],
+        prior_control_queries: list[str],
     ) -> str:
         chunk_block = '\n\n'.join([f'Chunk {idx + 1}: {chunk}' for idx, chunk in enumerate(context_chunks)])
         best_practices_short = '; '.join(best_practices[:8])
         risk_indicators_short = '; '.join(risk_indicators[:8])
         missing_areas_short = '; '.join(missing_areas[:8])
+        prior_summary_block = '; '.join(prior_summaries[:4]) if prior_summaries else 'None'
+        prior_query_block = '; '.join(prior_control_queries[:4]) if prior_control_queries else 'None'
 
         return f"""
 Domain: {domain}
+Loop number: {loop_number}
 Control query: {control_query}
 
 Expected best practices (reference list):
@@ -242,6 +254,12 @@ Expected risk indicators (reference list):
 
 Current missing areas (prior loops):
 {missing_areas_short}
+
+Prior loop summaries:
+{prior_summary_block}
+
+Prior loop control queries:
+{prior_query_block}
 
 Retrieved compliance report context:
 {chunk_block}
@@ -261,6 +279,8 @@ Rules:
 - Do not invent controls that are not in context.
 - `missing_areas` should identify what still needs verification.
 - Keep `summary` under 60 words.
+- Avoid repeating prior loop summary wording; focus on this loop query and evidence.
+- If findings are unchanged, still explain why this loop's evidence supports or weakens controls.
 - Return JSON only, no markdown.
 """.strip()
 
